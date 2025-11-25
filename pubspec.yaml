@@ -1,0 +1,28 @@
+name: millionaire_quiz
+description: A dynamic quiz game similar to 'Who Wants to Be a Millionaire?' for school kids, with questions in Kyrgyz from subjects up to the 11th grade.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  provider: ^6.1.1
+  google_generative_ai: ^0.4.3
+  rename: ^3.1.0
+  change_app_package_name: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # No assets needed - API key passed via --dart-define at compile time
+

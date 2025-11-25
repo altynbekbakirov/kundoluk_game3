@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Adventure: Millionaire Quiz (KG)",
+  "description": "A dynamic text adventure game similar to 'Who Wants to Be a Millionaire?' for school kids, with questions in Kyrgyz from subjects up to the 11th grade, powered by the Gemini API.",
+  "requestFramePermissions": []
+}
