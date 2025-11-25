@@ -16,13 +16,26 @@ dependencies:
   google_generative_ai: ^0.4.3
   rename: ^3.1.0
   change_app_package_name: ^1.5.0
+  flutter_launcher_icons: ^0.14.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
 
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/logo.png"
+
 flutter:
   uses-material-design: true
   # No assets needed - API key passed via --dart-define at compile time
+
+  assets:
+    # .env removed for security - API key provided at build time via --dart-define
+    - assets/images/
 
