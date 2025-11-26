@@ -1,5 +1,5 @@
 class Translations {
-  static Map<String, Map<String, String>> _translations = {
+  static final Map<String, Map<String, String>> _translations = {
     'title': {
       'ky': 'Миллионер болгуң келеби?',
       'ru': 'Хочешь стать миллионером?',

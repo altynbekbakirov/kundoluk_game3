@@ -17,10 +17,7 @@ class GameConstants {
   
   // API key passed at compile time via --dart-define
   // This is more secure than bundling .env in assets
-  static const String geminiApiKey = String.fromEnvironment(
-    'GEMINI_API_KEY',
-    defaultValue: '',
-  );
+  static const String geminiApiKey = "AIzaSyCP9YK1EUXqvpBA6dG2_GJbGrULEMsXVe0";
   
   static const List<String> optionLetters = ['A', 'B', 'C', 'D'];
   

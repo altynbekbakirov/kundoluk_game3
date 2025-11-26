@@ -9,7 +9,7 @@ Future<void> main() async {
   
   // API key is now passed via --dart-define at build time
   // This is more secure than bundling .env in assets
-  final apiKey = GameConstants.geminiApiKey;
+  const apiKey = GameConstants.geminiApiKey;
   print('🔑 API Key configured: ${apiKey.isNotEmpty ? "YES" : "NO"}');
   if (apiKey.isNotEmpty) {
     print('✅ API key length: ${apiKey.length}');
